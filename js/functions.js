@@ -1,4 +1,4 @@
-    //Get's the sample from the server defined in sixpack.js, chooses the design based on the servers response 
+    //Gets the sample from the server defined in sixpack.js, chooses the design based on the servers response 
     function getSample() {
         window.session = new sixpack.Session();
         var d = new Date();
