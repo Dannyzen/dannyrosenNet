@@ -5,8 +5,8 @@ function loadDesign(design_id) {
         pageToDisplay = "2.html";
     else if (design_id === "c")
         pageToDisplay = "3.html";
-    var xmlhttp;
     if (window.XMLHttpRequest) {
+        var xmlhttp;
         xmlhttp = new XMLHttpRequest();
     } else {
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
