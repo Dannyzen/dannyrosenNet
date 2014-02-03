@@ -10,8 +10,8 @@
             for (var i = 0; i < designs.length; i++) {
                 if (res.alternative['name'] === designs[i]) {
                     loadDesign(designs[i]);
-                    break;
                     return designs[i];
+                    break;
                 }
             }
         });
