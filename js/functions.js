@@ -17,8 +17,19 @@
         });
     }
 
+    function changeImage(image) {
+        document.getElementById("big_guy").src = image; 
+    }
+
+    function jumpToTop() {
+    window.scrollTo(0,0);
+    }
+
+
     function convert() {
         session.convert("month" + m, function (err, res) {
             if (err) throw err;
         });
     }
+
+
